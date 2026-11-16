@@ -19,6 +19,10 @@ return buscarPorId(resultado.insertId)
 
 
 
+
+
+
+
 export async function listarEquipamentos() {
     const sql = `SELECT * FROM equipamentos`;
 
@@ -75,4 +79,3 @@ module.exports = {
 
 
 
-fsdfsdfsdfsdfsdf
